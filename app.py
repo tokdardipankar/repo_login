@@ -16,6 +16,7 @@ def show():
     otp=request.form['otp']
     print(f"Otp is:{otp}")
     return render_template('index_3.html')
+    print(f'all the operation has been done succesfully')
 if __name__=="__main__":
     app.run(host="0.0.0.0",port=5000)
  
